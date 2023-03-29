@@ -1,8 +1,9 @@
 .container {
-    background: red;
     flex-basis: 550px;
     margin: 0 auto;
 }
+
+/* Header */
 
 header {
     padding: 30px 27px;
@@ -29,6 +30,44 @@ header {
 .nav--project {
     margin-left: auto;
     font-weight: 600;
-    font-size: 16px;
     color: #deebf8;
+}
+
+/* Main */
+
+main {
+    padding: 57px 27px;
+    height: 459px;
+    color: #ffffff;
+    background-color: #282d35;
+    background-image: url('./assets/react-background.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.main--title {
+    font-weight: 700;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+    margin-bottom: 45px;
+}
+
+.main--facts {
+    margin: 0;
+    max-width: 400px;
+}
+
+.main--facts > li {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.main--facts > li::marker {
+    color: #61dafb;
+    font-size: 23px;
+}
+
+.main--facts > li:last-child {
+    margin-bottom: 0;
 }
